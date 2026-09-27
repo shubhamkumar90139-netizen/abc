@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="NIKASTRA — Modern Indian clothing with a distinctive point of view." />
+  <title>NIKASTRA — Wear Your Identity</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="cursor"></div>
+
+  <header class="site-header">
+    <a class="logo" href="#">NIKASTRA<span>®</span></a>
+    <nav>
+      <a href="#shop">Shop</a>
+      <a href="#collections">Collections</a>
+      <a href="#story">Our Story</a>
+    </nav>
+    <button class="cart-btn" id="cartBtn">Bag <span id="cartCount">0</span></button>
+    <button class="menu-btn" id="menuBtn" aria-label="Open menu">☰</button>
+  </header>
+
+  <main>
+    <section class="hero section">
+      <div class="hero-copy reveal">
+        <p class="eyebrow">NEW COLLECTION / 2026</p>
+        <h1>Wear Your<br><em>Identity.</em></h1>
+        <p class="hero-text">Modern clothing. Distinctive details. Made for the ones who define their own style.</p>
+        <div class="hero-actions">
+          <a class="btn btn-dark" href="#shop">Shop Collection <span>↗</span></a>
+          <a class="text-link" href="#story">Our story →</a>
+        </div>
+      </div>
+      <div class="hero-art reveal">
+        <div class="orb"></div>
+        <div class="hero-card">
+          <div class="model-shape">
+            <div class="head"></div><div class="body"></div><div class="leg l"></div><div class="leg r"></div>
+          </div>
+          <span>01 / 06</span>
+        </div>
+        <div class="vertical-label">NIKASTRA / SS26</div>
+      </div>
+    </section>
+
+    <section class="ticker"><div>NEW COLLECTION&nbsp;&nbsp; • &nbsp;&nbsp;LIMITED RUN&nbsp;&nbsp; • &nbsp;&nbsp;MADE TO EXPRESS&nbsp;&nbsp; • &nbsp;&nbsp;</div><div aria-hidden="true">NEW COLLECTION&nbsp;&nbsp; • &nbsp;&nbsp;LIMITED RUN&nbsp;&nbsp; • &nbsp;&nbsp;MADE TO EXPRESS&nbsp;&nbsp; • &nbsp;&nbsp;</div></section>
+
+    <section class="section products" id="shop">
+      <div class="section-head reveal">
+        <div>
+          <p class="eyebrow">SHOP / FEATURED</p>
+          <h2>Pieces with<br><em>presence.</em></h2>
+        </div>
+        <a class="text-link" href="#shop">View all products →</a>
+      </div>
+      <div class="product-grid">
+        <article class="product reveal" data-name="NIKASTRA Linen Shirt" data-price="₹1,299">
+          <div class="product-image image-1"><span class="tag">NEW</span><button class="quick">Quick view</button><div class="figure f1"></div></div>
+          <div class="product-info"><h3>NIKASTRA Linen Shirt</h3><span>₹1,299</span></div>
+          <button class="add" data-product="NIKASTRA Linen Shirt">Add to bag +</button>
+        </article>
+        <article class="product reveal" data-name="NIKASTRA Signature Tee" data-price="₹899">
+          <div class="product-image image-2"><span class="tag">BESTSELLER</span><button class="quick">Quick view</button><div class="figure f2"></div></div>
+          <div class="product-info"><h3>NIKASTRA Signature Tee</h3><span>₹899</span></div>
+          <button class="add" data-product="NIKASTRA Signature Tee">Add to bag +</button>
+        </article>
+        <article class="product reveal" data-name="NIKASTRA Co-ord Set" data-price="₹1,799">
+          <div class="product-image image-3"><button class="quick">Quick view</button><div class="figure f3"></div></div>
+          <div class="product-info"><h3>NIKASTRA Co-ord Set</h3><span>₹1,799</span></div>
+          <button class="add" data-product="NIKASTRA Co-ord Set">Add to bag +</button>
+        </article>
+      </div>
+    </section>
+
+    <section class="manifesto section reveal" id="story">
+      <p class="eyebrow">THE NIKASTRA MANIFESTO</p>
+      <h2>Every outfit tells a story.<br><em>Wear yours here.</em></h2>
+      <p>NIKASTRA creates everyday clothing for people who refuse to blend in. Thoughtful silhouettes, versatile pieces and a distinct Indian point of view.</p>
+      <a class="btn btn-dark" href="#collections">Discover NIKASTRA ↗</a>
+    </section>
+
+    <section class="collections section" id="collections">
+      <div class="section-head reveal">
+        <div><p class="eyebrow">SHOP BY COLLECTION</p><h2>Express your identity<br><em>in your own style.</em></h2></div>
+      </div>
+      <div class="collection-grid">
+        <a class="collection large reveal" href="#shop"><div class="collection-person cp1"></div><div><small>01</small><h3>New Arrivals</h3></div></a>
+        <a class="collection reveal" href="#shop"><div class="collection-person cp2"></div><div><small>02</small><h3>Everyday Essentials</h3></div></a>
+        <a class="collection reveal" href="#shop"><div class="collection-person cp3"></div><div><small>03</small><h3>Statement Edit</h3></div></a>
+      </div>
+    </section>
+
+    <section class="quote section reveal">
+      <p class="eyebrow">NIKASTRA / INDIA</p>
+      <blockquote>“Clothing is more than what you wear. It is how you show up.”</blockquote>
+      <span>— THE NIKASTRA STUDIO</span>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div><a class="logo" href="#">NIKASTRA<span>®</span></a><p>Contemporary clothing for independent minds.</p></div>
+    <div class="footer-links"><a href="#shop">Shop</a><a href="#collections">Collections</a><a href="#story">Story</a><a href="#">Instagram</a></div>
+    <div class="newsletter"><p>Get the next NIKASTRA drop first.</p><div><input id="email" type="email" placeholder="Your email address"><button id="subscribe">→</button></div></div>
+    <small class="copyright">© 2026 NIKASTRA. All rights reserved.</small>
+  </footer>
+
+  <div class="modal" id="modal">
+    <div class="modal-inner"><button class="close" id="closeModal">×</button><div class="modal-art" id="modalArt"></div><div><p class="eyebrow">QUICK VIEW</p><h2 id="modalName">Product</h2><p class="modal-price" id="modalPrice">$0</p><p>Premium feel. Easy fit. Designed for everyday rotation.</p><button class="btn btn-dark" id="modalAdd">Add to bag</button></div></div>
+  </div>
+
+  <div class="toast" id="toast">Added to your bag ✓</div>
+  <script src="script.js"></script>
+</body>
+</html>
